@@ -1,0 +1,128 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: orange;
+    text-shadow: 1px 1px 11px orangered;
+    font-size: 39px;
+}
+.container{
+    width: 600px;
+    height: 640px;
+    background-color: rgba(255, 255, 255, 0.901);
+    border: 3px solid palevioletred;
+    box-shadow: 0px 6px 109px rgb(117, 116, 116);
+    position: fixed;
+    margin-left: 480px;
+}
+.outer-div{
+    width: 570px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.inner{
+    margin-top: 40px;
+}
+.inner h2{
+    font-weight: bolder;
+    line-height: 0;
+}
+.inner .white-div{
+    background-color: whitesmoke;
+    width: 550px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 11px black;
+}
+.inner .color-div-1{
+    background: linear-gradient(to right , white , blue);
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 11px black;
+    margin-top: -56px;
+}
+.inner .color-div-1 p,
+.inner .color-div-2 p,
+.inner .color-div-3 p,
+.inner .color-div-4 p,
+.inner .color-div-5 p,
+.inner .color-div-6 p{
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    opacity: 0;
+}
+.inner .color-div-1:hover{
+    background: blue;
+}
+.inner .color-div-1:hover p,
+.inner .color-div-2:hover p,
+.inner .color-div-3:hover p,
+.inner .color-div-4:hover p,
+.inner .color-div-5:hover p,
+.inner .color-div-6:hover p{
+    opacity: 1;
+}
+.inner .color-div-2{
+    background: linear-gradient(to right , white , rgb(182, 44, 182), purple);
+    width: 290px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 11px black;
+    margin-top: -56px;
+}
+.inner .color-div-2:hover{
+    background: purple;
+}
+.inner .color-div-3{
+    background: linear-gradient(to right, white , rgb(247, 139, 56), orange );
+    width: 95px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 11px black;
+    margin-top: -56px;
+}
+.inner .color-div-3:hover{
+    background: orangered;
+}
+.inner .color-div-4{
+    background:linear-gradient(to right , white ,  rgb(244, 48, 48), red);
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 11px black;
+    margin-top: -56px;
+}
+.inner .color-div-4:hover{
+    background: red;
+}
+.inner .color-div-5{
+    background: linear-gradient(to right, white ,  rgb(94, 198, 160), teal);
+    width: 290px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 11px black;
+    margin-top: -56px;
+}
+.inner .color-div-5:hover{
+    background: teal;
+}
+.inner .color-div-6{
+    background:  linear-gradient(to right, white , rgb(56, 205, 2), lime);
+    width: 137px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 11px black;
+    margin-top: -56px;
+}
+.inner .color-div-6:hover{
+    background: green;
+}
